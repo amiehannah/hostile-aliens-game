@@ -6,7 +6,7 @@
 
 ##
 
-//ADD IMAGE HERE
+![Hostile Aliens Design](hostile-aliens-img.png)
 
 # Task: <br/>
 
