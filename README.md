@@ -6,7 +6,7 @@
 
 ##
 
-![Hostile Aliens Design](hostile-aliens-img.png)
+![Hostile Aliens Design](hostile-aliens-game-img.png)
 
 # Task: <br/>
 
