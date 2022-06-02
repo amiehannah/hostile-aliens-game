@@ -1,3 +1,13 @@
+# Hostile Aliens Game
+
+> _To create a simple text only game loosely based on Space Invaders._ </br>
+
+#### Project Link [_here_](https://amiehannah.github.io/hostile-aliens-game/).
+
+##
+
+//ADD IMAGE HERE
+
 # Task: <br/>
 
 - To create a simple text only game loosely based on Space Invaders. </br>
@@ -46,6 +56,18 @@ o 8 x Attackship -
 7. Once, the motherships current points are equal to 0 - OR - if the attackShip score and defenceShip scores are both equal to 0 (whichever happens first), this then triggers the gameOver() method. </br>
    The gameOver modal is then visible to the user and values are reset ready to start the game again.
 
-## Testing: </br>
+## Technologies & Features:
+
+- JavaScript
+- Unit Tested using Jest
+- HTML5
+- CSS
+- Mobile first / responsive design
+
+## Unit Testing: <br/>
 
 I used Jest to test the alien class, extracting it into a separate js file, to check that the properties and methods on the class are working correctly.
+
+## Contact
+
+Created by [Amie Edwards](mailto:amie.edwards17@gmail.com)
