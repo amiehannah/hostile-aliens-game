@@ -95,3 +95,9 @@ class AlienShip {
 ## Contact
 
 Created by [Amie Edwards](mailto:amie.edwards17@gmail.com)
+
+<br/>
+<div align="right">
+    <b><a href="#hostile-aliens-game"> ^ back to top</a></b>
+</div>
+<br/>
