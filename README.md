@@ -6,7 +6,9 @@
 
 ##
 
-![Hostile Aliens Design](hostile-aliens-game-img.png)
+<!-- ![Hostile Aliens Design](hostile-aliens-game-img.png) -->
+
+![Hostile Aliens Design](hostile-aliens-gif.gif)
 
 ## User Story:
 
