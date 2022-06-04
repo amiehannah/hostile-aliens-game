@@ -8,7 +8,11 @@
 
 <!-- ![Hostile Aliens Design](hostile-aliens-game-img.png) -->
 
-![Hostile Aliens Design](hostile-aliens-gif.gif)
+<!-- ![Hostile Aliens Design](hostile-aliens-gif.gif) -->
+
+<p align="center">
+  <img src="hostile-aliens-gif.gif" alt="Hostile Aliens gif">
+</p>
 
 ## User Story:
 
