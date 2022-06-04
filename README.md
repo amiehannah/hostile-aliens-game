@@ -14,6 +14,13 @@
   , so that I am able to communicate effectively.
 
 - Given that I start the game, I should see the whole alien fleet on the board (with **_1 Mothership_**, **_5 Defence Ships_** and **_8 Attack Ships_**) and a shoot button.
+
+| Alien Ship   | Quantity | Starting Points | Hit Points |
+| ------------ | :------: | :-------------: | :--------: |
+| Mothership   |    1     |       100       |    - 9     |
+| Defence Ship |    5     |       80        |    - 10    |
+| Attack Ship  |    8     |       45        |    - 12    |
+
 - The alien fleet should be as below:
 - 1 x Mothership
   o 100 Hit Points
