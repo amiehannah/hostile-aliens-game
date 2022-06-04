@@ -10,22 +10,20 @@
 
 ## User Story:
 
-- As a player of this game, I want to be able to .....
-  , so that I am able to communicate effectively.
-
+- As a player of this game, I want to be able to hit each alien ship, so that I am able to defeat the alien fleet.
 - Given that I start the game, I should see the whole alien fleet on the board and a shoot button.
 - The alien fleet should be as below:
 
 | Alien Ship         | Quantity | Starting Points | Hit Points |
 | ------------------ | :------: | :-------------: | :--------: |
-| **_Mothership_**   |    1     |       100       |    - 9     |
+| **_Mother Ship_**  |    1     |       100       |    - 9     |
 | **_Defence Ship_** |    5     |       80        |    - 10    |
 | **_Attack Ship_**  |    8     |       45        |    - 12    |
 
 - Given that I press the shoot button, I want to be able to fire at a random alien ship each time.
 - Given that I randomly hit an alien ship, I want to visually be able to see which ship has been hit and see it's hit points decrease.
 - Given that the points of a ship hit 0, they should be sunk and disappear from view.
-- Given that the either the **_Motherships_** current points are equal to 0 - OR - if the **_Attack Ship_** score and **_Defence Ship_** scores are both equal to 0 (whichever happens first), the game is over.
+- Given that either the **_Mother Ship's_** current points are equal to 0 - OR - if the **_Attack Ship_** scores and **_Defence Ship_** scores are both equal to 0 (whichever happens first), the game is over.
 - Given that the game is over, then I should be provided with an option to restart the game again.
 
 ## Functionality: <br/>
