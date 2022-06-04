@@ -30,11 +30,35 @@
 
 ## Functionality: <br/>
 
-1. Using an OOP approach, I created a class of AlienShip which contained the following methods getCurrentScore(), reduceShipPoints(), gameOver()
+1. Using an OOP approach, I created a class of `AlienShip` which contained the following methods `getCurrentScore()`, `reduceShipPoints()`, `gameOver()`.
+
+```javascript
+class AlienShip {
+  constructor(shipName, currentPoints, hitPoints, id) {
+    this.shipName = shipName;
+    this.currentPoints = currentPoints;
+    this.hitPoints = hitPoints;
+    this.id = id;
+  }
+  getCurrentScore() {
+    return this.currentPoints;
+  }
+  reduceShipPoints() {
+    const alienShipScore = this.currentPoints - this.hitPoints;
+    this.currentPoints = alienShipScore;
+    return this.currentPoints;
+  }
+  gameOver() {
+    this.currentPoints = 0;
+    gameOverModal.classList.remove("hidden");
+    console.log("game is over!");
+  }
+}
+```
 
 2. The alien fleet, gameboard and score board are dynamically created. </br>
-   Pushed all alien ships into a blank array, ready to start the game. </br>
-   Once all elements of the game had been created it was now time to look at writing the functions to interact and hit these ships.
+   I pushed all alien ships into a blank array, ready to start the game. </br>
+   Once all elements of the game had been created it was time to look at writing the functions to interact and hit these ships.
 
 3. Clicking the **_'shoot button'_** triggers the `handleClick()` function, a random ship from the array of alien ships is selected and so long as the scores are greater than 0, then the `shootAlienShips()` function is then run.
 
