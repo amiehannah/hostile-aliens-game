@@ -1,14 +1,10 @@
 # Hostile Aliens Game
 
-> _To create a simple text only game loosely based on Space Invaders. The game should contain a single button that hits a random alien ship in the fleet. Each time the button is pressed, a random alien ship is hit and its hit points are reduced. Once an alien ships points have hit zero the ship is destroyed and can’t be hit again. The game is over once all alien ships have been destroyed. For best results, approach this challenge with an OOP mindset although some functions may be needed._ </br>
+> _Hostile Aliens is a simple text only game loosely based on Space Invaders and built using an OOP approach. The game contains a single button that hits a random alien ship in the fleet. Each time the button is pressed, a random alien ship is hit and its hit points are reduced. Once an alien ships points have hit zero the ship is destroyed and can’t be hit again. The game is over once all alien ships have been destroyed._ </br>
 
 #### Project Link [_here_](https://amiehannah.github.io/hostile-aliens-game/).
 
 ##
-
-<!-- ![Hostile Aliens Design](hostile-aliens-game-img.png) -->
-
-<!-- ![Hostile Aliens Design](hostile-aliens-gif.gif) -->
 
 <p align="center">
   <img src="hostile-aliens-gif.gif" alt="Hostile Aliens gif">
@@ -36,21 +32,21 @@
 
 1. Using an OOP approach, I created a class of AlienShip which contained the following methods getCurrentScore(), reduceShipPoints(), gameOver()
 
-2. Dynamically created the alien fleet, gameboard and score board. </br>
+2. The alien fleet, gameboard and score board are dynamically created. </br>
    Pushed all alien ships into a blank array, ready to start the game. </br>
    Once all elements of the game had been created it was now time to look at writing the functions to interact and hit these ships.
 
-3. Clicking the 'shoot button' triggers the handleClick() function, a random ship from the array of alien ships is selected and so long as the scores are greater than 0, then the shootAlienShips() function is then run.
+3. Clicking the **_'shoot button'_** triggers the `handleClick()` function, a random ship from the array of alien ships is selected and so long as the scores are greater than 0, then the `shootAlienShips()` function is then run.
 
 4. I only want to shoot the alien ship if it's current points are greater than 0 AND if the alien ship hasn't already been sunk. </br>
    I use an if statement to check. If it doesn't meet this condition, it is removed from the shipsArray so it cannot be hit again and a css class of 'sunk' is applied to this ship, so visually it is out of play.
 
-5. However, if the current points of the randomShip are greater than 0 AND it hasn't already been sunk, the ship can be hit and the method reduceShipPoints() can be run. </br>
+5. However, if the current points of the randomShip are greater than 0 AND it hasn't already been sunk, the ship can be hit and the method `reduceShipPoints()` can be run. </br>
    CSS styles of 'hit' can be applied to this randomShip, flashing red to show the user it has been hit.
 
 6. The score board is simultaneously updated to reflect each alien ships that is either hit or sunk.
 
-7. Once, the motherships current points are equal to 0 - OR - if the attackShip score and defenceShip scores are both equal to 0 (whichever happens first), this then triggers the gameOver() method. </br>
+7. Once, the motherships current points are equal to 0 - OR - if the attackShip score and defenceShip scores are both equal to 0 (whichever happens first), this then triggers the `gameOver()` method. </br>
    The gameOver modal is then visible to the user and values are reset ready to start the game again.
 
 ## Technologies & Features:
