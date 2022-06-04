@@ -9,37 +9,31 @@
 ![Hostile Aliens Design](hostile-aliens-game-img.png)
 
 ## User Story:
-- As a player of this game, I want to be able to .....
-, so that I am able to communicate effectively.
 
-- Given that I start the game, I should see the whole alien fleet on the board (with **_1 Mothership_**, **_5 defence ships_** and **_8 attack ships_**) and a shoot button.
+- As a player of this game, I want to be able to .....
+  , so that I am able to communicate effectively.
+
+- Given that I start the game, I should see the whole alien fleet on the board (with **_1 Mothership_**, **_5 Defence Ships_** and **_8 Attack Ships_**) and a shoot button.
+- The alien fleet should be as below:
+- 1 x Mothership
+  o 100 Hit Points
+  o Loses 9 hit points every time it is hit
+
+- 5 x Defenceship
+  o Each one starts with 80 hit points
+  o Each one Loses 10 hit points each time it is hit
+
+- 8 x Attackship -
+  o Each starts with 45 hit points
+  o Each loses 12 hit points each time it is hit.
+
 - Given that I press the shoot button, I want to be able to fire at a random alien ship each time.
 - Given that I randomly hit an alien ship, I want to visually be able to see which ship has been hit and see it's hit points decrease.
 - Given that the points of a ship hit 0, they should be sunk and disappear from view.
-- Given that the either the **_Motherships_** current points are equal to 0 - OR - if the **_attackShip_** score and **_defenceShip_** scores are both equal to 0 (whichever happens first), the game is over. 
-- Given that the game is over, then the user should be provided with an option to restart the game again. 
+- Given that the either the **_Motherships_** current points are equal to 0 - OR - if the **_Attack Ship_** score and **_Defence Ship_** scores are both equal to 0 (whichever happens first), the game is over.
+- Given that the game is over, then I should be provided with an option to restart the game again.
 
-
-## Rules: <br/>
-
-• You should be able to start a new game once the game is over
-• Some text visualisation of the ships and their hit points
-• The game should have the following Alien ships:
-
-o 1 x Mothership-
-▪ 100 Hit Points -
-▪ Loses 9 hit points every time it is hit -
-▪ All ships are destroyed if the Mother ship is destroyed
-
-o 5 x Defenceship -
-▪ Each one starts with 80 hit points -
-▪ Each one Loses 10 hit points each time it is hit
-
-o 8 x Attackship -
-▪ Each starts with 45 hit points
-▪ Each loses 12 hit points each time it is hit.
-
-## Approach: <br/>
+## Functionality: <br/>
 
 1. Using an OOP approach, I created a class of AlienShip which contained the following methods getCurrentScore(), reduceShipPoints(), gameOver()
 
