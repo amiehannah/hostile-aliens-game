@@ -1,6 +1,6 @@
 # Hostile Aliens Game
 
-> _To create a simple text only game loosely based on Space Invaders._ </br>
+> _To create a simple text only game loosely based on Space Invaders. The game should contain a single button that hits a random alien ship in the fleet. Each time the button is pressed, a random alien ship is hit and its hit points are reduced. Once an alien ships points have hit zero the ship is destroyed and can’t be hit again. The game is over once all alien ships have been destroyed. For best results, approach this challenge with an OOP mindset although some functions may be needed._ </br>
 
 #### Project Link [_here_](https://amiehannah.github.io/hostile-aliens-game/).
 
@@ -8,13 +8,17 @@
 
 ![Hostile Aliens Design](hostile-aliens-game-img.png)
 
-# Task: <br/>
+## User Story:
+- As a player of this game, I want to be able to .....
+, so that I am able to communicate effectively.
 
-- To create a simple text only game loosely based on Space Invaders. </br>
-- The game should contain a single button that hits a random alien ship in the fleet. </br>
-- Each time the button is pressed, a random alien ship is hit and its hit points are reduced. </br>
-- Once an alien ships points have hit zero the ship is destroyed and can’t be hit again. </br>
-- The game is over once all alien ships have been destroyed. For best results, approach this challenge with an OOP mindset although some functions may be needed. </br>
+- Given that I start the game, I should see the whole alien fleet on the board (with **_1 Mothership_**, **_5 defence ships_** and **_8 attack ships_**) and a shoot button.
+- Given that I press the shoot button, I want to be able to fire at a random alien ship each time.
+- Given that I randomly hit an alien ship, I want to visually be able to see which ship has been hit and see it's hit points decrease.
+- Given that the points of a ship hit 0, they should be sunk and disappear from view.
+- Given that the either the **_Motherships_** current points are equal to 0 - OR - if the **_attackShip_** score and **_defenceShip_** scores are both equal to 0 (whichever happens first), the game is over. 
+- Given that the game is over, then the user should be provided with an option to restart the game again. 
+
 
 ## Rules: <br/>
 
@@ -59,14 +63,21 @@ o 8 x Attackship -
 ## Technologies & Features:
 
 - JavaScript
+- OOP approach
 - Unit Tested using Jest
 - HTML5
 - CSS
 - Mobile first / responsive design
+- Git Version Control
 
 ## Unit Testing: <br/>
 
 I used Jest to test the alien class, extracting it into a separate js file, to check that the properties and methods on the class are working correctly.
+
+## Further Developments:
+
+- To add in a game introduction, informing user of how to play.
+- Refactor code to ensure the functions are more 'pure'.
 
 ## Contact
 
