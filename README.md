@@ -13,14 +13,14 @@
 - As a player of this game, I want to be able to .....
   , so that I am able to communicate effectively.
 
-- Given that I start the game, I should see the whole alien fleet on the board (with **_1 Mothership_**, **_5 Defence Ships_** and **_8 Attack Ships_**) and a shoot button.
+- Given that I start the game, I should see the whole alien fleet on the board and a shoot button.
 - The alien fleet should be as below:
 
-| Alien Ship   | Quantity | Starting Points | Hit Points |
-| ------------ | :------: | :-------------: | :--------: |
-| Mothership   |    1     |       100       |    - 9     |
-| Defence Ship |    5     |       80        |    - 10    |
-| Attack Ship  |    8     |       45        |    - 12    |
+| Alien Ship         | Quantity | Starting Points | Hit Points |
+| ------------------ | :------: | :-------------: | :--------: |
+| **_Mothership_**   |    1     |       100       |    - 9     |
+| **_Defence Ship_** |    5     |       80        |    - 10    |
+| **_Attack Ship_**  |    8     |       45        |    - 12    |
 
 - Given that I press the shoot button, I want to be able to fire at a random alien ship each time.
 - Given that I randomly hit an alien ship, I want to visually be able to see which ship has been hit and see it's hit points decrease.
@@ -61,7 +61,7 @@
 
 ## Unit Testing: <br/>
 
-I used Jest to test the alien class, extracting it into a separate js file, to check that the properties and methods on the class are working correctly.
+- I used Jest to test the alien class, extracting it into a separate js file, to check that the properties and methods on the class are working correctly.
 
 ## Further Developments:
 
