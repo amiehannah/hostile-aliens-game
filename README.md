@@ -14,25 +14,13 @@
   , so that I am able to communicate effectively.
 
 - Given that I start the game, I should see the whole alien fleet on the board (with **_1 Mothership_**, **_5 Defence Ships_** and **_8 Attack Ships_**) and a shoot button.
+- The alien fleet should be as below:
 
 | Alien Ship   | Quantity | Starting Points | Hit Points |
 | ------------ | :------: | :-------------: | :--------: |
 | Mothership   |    1     |       100       |    - 9     |
 | Defence Ship |    5     |       80        |    - 10    |
 | Attack Ship  |    8     |       45        |    - 12    |
-
-- The alien fleet should be as below:
-- 1 x Mothership
-  o 100 Hit Points
-  o Loses 9 hit points every time it is hit
-
-- 5 x Defenceship
-  o Each one starts with 80 hit points
-  o Each one Loses 10 hit points each time it is hit
-
-- 8 x Attackship -
-  o Each starts with 45 hit points
-  o Each loses 12 hit points each time it is hit.
 
 - Given that I press the shoot button, I want to be able to fire at a random alien ship each time.
 - Given that I randomly hit an alien ship, I want to visually be able to see which ship has been hit and see it's hit points decrease.
